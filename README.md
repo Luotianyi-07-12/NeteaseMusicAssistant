@@ -1,4 +1,4 @@
-# 网易云音乐助手 · Edge 兼容版
+# 网易云音乐助手 · RE
 
 本版本基于 cwuom/netease-cloud-LV10 的公开源码改造，新增 Windows 图形界面及可独立运行的 EXE。
 
