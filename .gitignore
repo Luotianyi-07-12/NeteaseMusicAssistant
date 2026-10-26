@@ -1,0 +1,8 @@
+.state/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+cookie.txt
+!netease-cloud-LV10/cookie.txt
