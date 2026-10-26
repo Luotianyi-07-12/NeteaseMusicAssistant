@@ -1,6 +1,6 @@
 # 网易云音乐助手 · RE
 
-本版本基于 cwuom/netease-cloud-LV10 的公开源码改造，新增 Windows 图形界面及可独立运行的 EXE。
+NeteaseMusicAssistant 是面向 Windows 与 Microsoft Edge 的网易云音乐图形工具，提供扫码登录、签到、歌单任务、单曲/多曲次数与循环管理。项目参考了 [cwuom/netease-cloud-LV10](https://github.com/cwuom/netease-cloud-LV10) 的功能思路，公开版本采用本次重新实现的 Python 代码。
 
 ## 使用 EXE
 
@@ -85,4 +85,4 @@ python -m PyInstaller --noconfirm assistant.spec
 - 本地接口：https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced ，npm 版本 4.41.1；相关文档和模块已核对。
 - Edge 文档：https://learn.microsoft.com/en-us/microsoft-edge/webdriver/
 
-原作者及原 README 的说明见 `docs/UPSTREAM_README.md`。随附接口及运行时的第三方许可证保留在分发文件中。
+本仓库新写的应用代码采用 MIT 许可证，详见 [LICENSE](LICENSE)。项目来源与许可范围详见 [docs/ORIGIN.md](docs/ORIGIN.md)，第三方组件许可详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

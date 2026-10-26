@@ -1,8 +1,30 @@
+# Local account data, browser profiles, reports and API caches
 .state/
-.venv/
-node_modules/
-__pycache__/
-*.pyc
-*.log
 cookie.txt
-!netease-cloud-LV10/cookie.txt
+auth.dat
+*cookies*.json
+*cookie*.txt
+*.log
+.env
+.env.*
+!.env.example
+
+# Python / local dependencies
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+node_modules/
+
+# Build outputs and local editor files
+build/
+dist/
+*.exe
+*.pkg
+*.zip
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

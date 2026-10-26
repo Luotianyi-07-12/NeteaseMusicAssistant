@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.cjs text eol=lf
+*.ps1 text eol=crlf
+# Preserve upstream license texts verbatim, including their original whitespace.
+docs/NODE-LICENSE.txt -whitespace
+docs/PYTHON-LICENSE.txt -whitespace

@@ -1,0 +1,7 @@
+{
+  "name": "netease-lv10-local-api",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": { "start": "node server.cjs" },
+  "dependencies": { "@neteasecloudmusicapienhanced/api": "4.41.1" }
+}

@@ -1,0 +1,2 @@
+# Optional source-only fallback for direct website login.
+selenium>=4.26,<5

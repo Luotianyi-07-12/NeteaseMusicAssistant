@@ -1,0 +1,2 @@
+# The GUI and QR login use only the Python standard library.
+# See requirements-build.txt for EXE builds and requirements-webdriver.txt for optional WebDriver login.
